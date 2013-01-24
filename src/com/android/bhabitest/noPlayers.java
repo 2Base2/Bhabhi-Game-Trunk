@@ -21,7 +21,7 @@ public class noPlayers extends Activity implements SeekBar.OnSeekBarChangeListen
         mSeekBar = (SeekBar)findViewById(R.id.seekBar1);
         mSeekBar.setOnSeekBarChangeListener(this);
         mProgressText = (TextView)findViewById(R.id.progress);
-        
+        this.savedInstanceState;
        
         
         Button btnsGame = (Button)findViewById(R.id.sGame);
